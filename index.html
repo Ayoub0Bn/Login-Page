@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayoub's Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/Ayoub.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form action="/action_page.php" method="post" class="login-form">
+            <h1>Log-in Form</h1>
+            <div class="input-container">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name" required autofocus autocomplete="fname">
+            </div>
+            <div class="input-container">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required autocomplete="lname">
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Example@" required autocomplete="email">
+            </div>
+            <div class="input-container">
+                <label for="password">Password:</label>
+                <input type="password" id="pass" name="password" placeholder="Enter your password" minlength="8" required>
+            </div>
+            <button class="button">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Copyright &copy; <a href="https://www.linkedin.com/in/ayoub-banani/" target="_blank">Ayoub Banani </a><img src="Ayoub.jpg" width="15px" alt="MyPicture"> All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

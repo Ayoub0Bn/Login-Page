@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(17, 66, 116);
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Use min-height instead of height */
+  margin: 0;
+}
+
+.container {
+  width: 90%; /* Change to percentage for responsiveness */
+  max-width: 350px; /* Add max-width for larger screens */
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(15, 18, 20);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  flex: 1; /* Allow the container to take up available vertical space */
+}
+
+.login-form  h1 {
+  color: rgb(211, 224, 236);
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  color: rgb(211, 224, 236);
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(211, 224, 236);
+  border: none;
+  border-radius: 6px;
+  
+}
+
+button.button {
+  font-size: 16px;
+  background-color: #555555;
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.button:hover {
+  background-color: rgb(211, 224, 236);
+  color: rgb(15, 18, 20);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(211, 224, 236);
+  
+  
+}
+
+a:hover{
+  color: white;
+}
+
+img{
+  border-radius:100%;
+}
+
+footer {
+  text-align: center;
+  color: rgb(211, 224, 236);
+  margin-top: auto; /* Push the footer to the bottom */
+  padding: 20px; /* Add some padding for better spacing */
+}
+
